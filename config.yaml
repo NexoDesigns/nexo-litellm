@@ -2,15 +2,15 @@ model_list:
   - model_name: gpt-4o
     litellm_params:
       model: openai/gpt-4o
-      api_key: os.environ/OPENAI_API_KEY
+      api_key: os.environ/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
 
   - model_name: gpt-4o-mini
     litellm_params:
       model: openai/gpt-4o-mini
-      api_key: os.environ/OPENAI_API_KEY
+      api_key: os.environ/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
 
 litellm_settings:
   drop_params: true
 
 general_settings:
-  master_key: os.environ/Estoeslaclaveapirandomdelitellm
+  master_key: os.environ/sk-nexo-ea57802b046b69d9b4c216a7f74689cf
